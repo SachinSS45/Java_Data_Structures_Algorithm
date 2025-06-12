@@ -34,5 +34,15 @@ public class Program06 {
             }
             System.out.println();
         }
+
+        //to do in one for loop
+        for(int i=1;i<=2*n;i++){
+            int row = 0;
+            if(i<=n){
+                row = i;
+            }else{
+                row = 2*n-i + 1;
+            }
+        }
     }
 }
